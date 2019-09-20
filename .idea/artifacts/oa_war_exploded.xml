@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="oa:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/oa_war_exploded</output-path>
+    <output-path>$PROJECT_DIR$/target/oa</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
@@ -32,13 +32,14 @@
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.9" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.0.8" />
           <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.15" />
-          <element id="library" level="module" name="Maven: com.alibaba:jconsole:1.8.0" module-name="oa" />
-          <element id="library" level="module" name="Maven: com.alibaba:tools:1.8.0" module-name="oa" />
           <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.3.1" />
           <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:1.2.4" />
           <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper:4.2.1" />
           <element id="library" level="project" name="Maven: com.github.jsqlparser:jsqlparser:0.9.5" />
         </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/oa/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="oa/web/Web" />
     </root>
