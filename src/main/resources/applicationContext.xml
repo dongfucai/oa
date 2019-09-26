@@ -72,7 +72,7 @@
 	 	<property name="basePackage" value="com.tz.oa.sysmanage.mapper"/>
 	 	<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
 	 </bean>	
-	 	
+	 	<!--qa -->
 	 	
 	 	
 </beans>
